@@ -16,4 +16,12 @@ public class OMDBJsonResponse {
     public void setSearch(HighLevelInfo[] search) {
         this.search = search;
     }
+
+    public String getTotalResults() {
+        return totalResults;
+    }
+
+    public void setTotalResults(String totalResults) {
+        this.totalResults = totalResults;
+    }
 }

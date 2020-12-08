@@ -68,4 +68,8 @@ public class HighLevelInfo {
     public void setPoster(String poster) {
         this.poster = poster;
     }
+
+    public String toString(){
+        return String.format("%s released in %s", title, year);
+    }
 }
